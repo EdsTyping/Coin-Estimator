@@ -17,7 +17,7 @@ def infoInGrams():
                     'Penny': total_pennies, 'Nickel': total_nickels,
                     'Dime': total_dimes, 'Quarter': total_quarters
                     }
-    print('\nCoin totals:')
+    print('\nApproximate Coin totals:')
     for coin, total in total_coins.items():
         print('Total ' + coin + ' count is: ' + str(total))
 
